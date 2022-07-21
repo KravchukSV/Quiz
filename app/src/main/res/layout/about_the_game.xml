@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:src="@drawable/main_fon"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/imageView" android:scaleType="centerCrop"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="@string/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press_blak_rose"
+                android:id="@+id/back_about_game" android:textSize="24sp"/>
+        <ScrollView
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="Киноман"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView7"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="Угадай "
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView13"/>
+                        <TextView
+                                android:text="200"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/movie_point"/>
+                        <TextView
+                                android:text=" фильмов"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView15"/>
+                    </LinearLayout>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/movie_star1" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/movie_star2" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/movie_star3" android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="Киноман"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView71"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="Угадай "
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView131"/>
+                        <TextView
+                                android:text="200"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/series_point"/>
+                        <TextView
+                                android:text=" фильмов"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView151"/>
+                    </LinearLayout>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/series_star1" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/series_star2" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/series_star3" android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="Киноман"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView72"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="Угадай "
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView132"/>
+                        <TextView
+                                android:text="200"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/cartoons_point"/>
+                        <TextView
+                                android:text=" фильмов"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView152"/>
+                    </LinearLayout>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/cartoons_star1" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/cartoons_star2" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/cartoons_star3" android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="Киноман"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView73"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="Угадай "
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView133"/>
+                        <TextView
+                                android:text="200"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/cartoons_point"/>
+                        <TextView
+                                android:text=" фильмов"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView153"/>
+                    </LinearLayout>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/games_star1" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/games_star2" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/games_star3" android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="Киноман"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView74"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="Угадай "
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView134"/>
+                        <TextView
+                                android:text="200"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/quiz_point"/>
+                        <TextView
+                                android:text=" фильмов"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView154"/>
+                    </LinearLayout>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/quiz_star1" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/quiz_star2" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/quiz_star3" android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="Киноман"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView75"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="Угадай "
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView135"/>
+                        <TextView
+                                android:text="200"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/trickster_point"/>
+                        <TextView
+                                android:text=" фильмов"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView155"/>
+                    </LinearLayout>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/trickster_star1" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/trickster_star2" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/trickster_star3" android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="Киноман"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView76"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="Угадай "
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView136"/>
+                        <TextView
+                                android:text="200"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/madman_point"/>
+                        <TextView
+                                android:text=" фильмов"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView156"/>
+                    </LinearLayout>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/madman_star1" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/madman_star2" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/madman_star3" android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="Киноман"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView77"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="Угадай "
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView137"/>
+                        <TextView
+                                android:text="200"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/lucky_point"/>
+                        <TextView
+                                android:text=" фильмов"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/textView157"/>
+                    </LinearLayout>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/lucky_star1" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/lucky_star2" android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" app:srcCompat="@drawable/star_invisibl"
+                            android:id="@+id/lucky_star3" android:layout_weight="1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

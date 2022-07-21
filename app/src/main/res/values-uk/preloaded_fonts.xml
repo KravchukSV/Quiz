@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/bad_script</item>
+        <item>@font/belleza</item>
+        <item>@font/bigelow_rules</item>
+        <item>@font/caveat</item>
+        <item>@font/lobster</item>
+        <item>@font/marck_script</item>
+        <item>@font/pattaya</item>
+        <item>@font/zeyada</item>
+    </array>
+</resources>

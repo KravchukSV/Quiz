@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="game_name">УГАДАЙ\n ПО КАДРУ</string>
+    <string name="start">СТАРТ</string>
+    <string name="standart_mode">СТАНДАРТНИЙ</string>
+    <string name="time_mode">НА ВРЕМЯ</string>
+    <string name="survival_mode">ВЫЖИВАНИЕ</string>
+    <string name="records">РЕКОРДЫ</string>
+    <string name="achievement">ДОСТИЖЕНИЕ</string>
+    <string name="movies">ФИЛЬМЫ</string>
+    <string name="series">СЕРИАЛЫ</string>
+    <string name="cartoons">МУЛЬТФИЛЬМЫ</string>
+    <string name="games">ИГРЫ</string>
+    <string name="quiz">ВИКТОРИНА</string>
+    <string name="point">ОЧКИ</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="total">ВСЕГО</string>
+    <string name="back">НАЗАД</string>
+    <string name="menu">МЕНЮ</string>
+    <string name="repeat">ПОВТОРИТЬ</string>
+    <string name="your_result">ВАШ РЕЗУЛЬТАТ</string>
+    <string name="button50">50/50</string>
+    <string name="watch_ads">СМОТРЕТЬ РЕКЛАМУ</string>
+    <string name="name_block_ads">Хотите убрать рекламу?</string>
+    <string name="temporary_disabling_ads">Временное отключение рекламы</string>
+    <string name="developer_support">Поддержать разработчика</string>
+    <string name="description_block_ads">Если вам понравилась игра, вы можете оказать поддержку разработчику в размере 10 гривен. За это у вас будут отключены рекламные баннеры и всплывающая реклама. Получения бонусов за рекламу останется активным. Для этого нажмите кнонку "Поддержать разработчика". \n
+        Для бесплатного отключения рекламы нажмите кноку "Временное отключение рекламы" и после просмотра рекламы у вас будет отключена реклама на данный сеанс (получение бонусов за рекламу остается активным).</string>
+    <string name="description">
+        Вы любите смотреть фильмы или сериалы?  Думаете что хорошо разбираетесь в мультфильмах? Переиграл все игры? Не знаете как скоротать лишние 15 минут ?
+        Данная викторина поможет проверить Вам свои знания, не сомневайтесь! В добавок ко всему больше не нужно ломать голову, какой фильм вы можете посмотреть сегодня вечером!
+        В приложении вас ожидают множество кадров интересных фильмов, захватывающих сериалов, потрясающих мультфильмов и увлекательных игр.</string>
+    <string name="movie_buff">Киноман</string>
+    <string name="tempered">Закаленный</string>
+    <string name="dreamer">Фантазер</string>
+    <string name="gambler">Игроман</string>
+    <string name="erudite">Эрудит</string>
+    <string name="trickster">Ловкач</string>
+    <string name="madman">Безумец</string>
+    <string name="lucky">Счастливчик</string>
+    <string name="guess">Угадай" "</string>
+    <string name="films_frame">" "фильмов</string>
+    <string name="series_frame">" "сериалов</string>
+    <string name="cartoons_frame">" "мультфильмов</string>
+    <string name="games_frame">" "игр</string>
+    <string name="frame">" "кадров</string>
+    <string name="frame_standart">" "кадров без ошибок</string>
+    <string name="in_standart"> в режиме «Стандартний»</string>
+    <string name="in_time">в режиме «На время»</string>
+    <string name="in_survival">в режиме «Выживание»</string>
+</resources>

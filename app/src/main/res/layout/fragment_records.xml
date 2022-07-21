@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <TextView
+                android:text="@string/movies"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" android:id="@+id/movies_records"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_weight="1"
+                    android:textSize="24sp" android:id="@+id/movies_number1"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp" android:id="@+id/movies_records1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_number2"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_records2"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_number3"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_records3"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_number4"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_records4"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_number5"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_records5"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_number6"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/movies_records6"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <TextView
+                android:text="@string/series"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" android:id="@+id/series_records"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_number1"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_records1"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_number2"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_records2"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_number3"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_records3"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_number4"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_records4"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_number5"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_records5"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_number6"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/series_records6"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+
+        <TextView
+                android:text="@string/cartoons"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" android:id="@+id/cartoons_records"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_number1"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_records1"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/cartoons_number2"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_records2"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_number3"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_records3"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_number4"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_records4"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_number5"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_records5"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_number6"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cartoons_records6"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <TextView
+                android:text="@string/games"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" android:id="@+id/game_records"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_number1"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_records1"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_number2"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_records2"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_number3"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_records3"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_number4"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_records4"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_number5"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_records5"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_number6"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/games_records6"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <TextView
+                android:text="@string/quiz"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" android:id="@+id/quiz_records"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_number1"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_records1"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_number2"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_records2"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_number3"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_records3"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_number4"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_records4"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_number5"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_records5"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_number6"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/quiz_records6"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd" android:textSize="24sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="game_name">GUESS\n BY FRAME</string>
+    <string name="start">START</string>
+    <string name="standart_mode">STANDARD</string>
+    <string name="time_mode">PER HOUR</string>
+    <string name="survival_mode">SURVIVAL</string>
+    <string name="records">RECORDS</string>
+    <string name="achievement">ACHIEVEMENT</string>
+    <string name="movies">MOVIES</string>
+    <string name="series">SERIES</string>
+    <string name="cartoons">CARTOONS</string>
+    <string name="games">GAMES</string>
+    <string name="quiz">QUIZ</string>
+    <string name="point">POINT</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="total">TOTAL</string>
+    <string name="back">BACK</string>
+    <string name="menu">MENU</string>
+    <string name="repeat">RESTART</string>
+    <string name="your_result">YOUR RESULT</string>
+    <string name="button50">50/50</string>
+    <string name="watch_ads">WATCH ADS</string>
+    <string name="name_block_ads">Want to remove ads?</string>
+    <string name="temporary_disabling_ads">Temporary disabling of advertising</string>
+    <string name="developer_support">Developer support</string>
+    <string name="description_block_ads">If you like the game, you can support the developer for 50 cents. For this you will be disabled banner ads and pop-up ads. Receiving ad bonuses will remain active. To do this, click the button "Support the developer".\n
+        To disable advertising for free, click the "Temporary disable advertising" button and after viewing advertisements you will have advertising disabled for this session (receiving bonuses for advertising remains active).</string>
+    <string name="description">
+        Do you like to watch movies or TV shows? Think you are good at cartoons? Replayed all the games? Not sure how to while away the extra 15 minutes?
+        This quiz will help you test your knowledge, do not hesitate! On top of that, you no longer have to puzzle over which movie you can watch tonight!
+        In the application, you will find a lot of frames of interesting films, exciting serials, amazing cartoons and exciting games.</string>
+    <string name="movie_buff">Movie buff</string>
+    <string name="tempered">Tempered</string>
+    <string name="dreamer">Dreamer</string>
+    <string name="gambler">Gambler</string>
+    <string name="erudite">Erudite</string>
+    <string name="trickster">Trickster</string>
+    <string name="madman">Madman</string>
+    <string name="lucky">Lucky</string>
+    <string name="guess">Guess" "</string>
+    <string name="films_frame">" "movies</string>
+    <string name="series_frame">" "series</string>
+    <string name="cartoons_frame">" "cartoons</string>
+    <string name="games_frame">" "games</string>
+    <string name="frame">" "frames</string>
+    <string name="frame_standart">" "frames without errors</string>
+    <string name="in_standart">in the «Standard» mode</string>
+    <string name="in_time">in the «Timed» mode</string>
+    <string name="in_survival">in the «Survival» mode</string>
+</resources>
